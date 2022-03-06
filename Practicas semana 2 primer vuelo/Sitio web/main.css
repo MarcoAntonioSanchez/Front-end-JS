@@ -1,0 +1,575 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+a {
+    font-style: none;
+    text-decoration: none;
+}
+
+/* Google fonts */
+@font-face {
+    font-family: 'Oswald', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+  }
+
+/* Original template */
+/* header */
+.nav {
+    align-items: center;
+    height: 7vh;
+    background: white;
+}
+
+.nav li a {
+    color: blueviolet;
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.nav li {
+    width: 25%;
+}
+
+.navbar-icon {
+    width: 10%;
+    height: auto;
+    background: #7B2CBF;
+    border-radius: 50%;
+    padding: 3px;
+    margin: 0;
+}
+
+/* Portrait */
+.imagen-portada {
+    height: 50vh;
+    background-image: url("../imgs/Header-jpg.jpg");
+    background-size: cover;
+    background-position: contain;
+}
+
+.portrait-logo {
+    width: 10%;
+    height: auto;
+    background: white;
+    border-radius: 50%;
+}
+
+/* Cupcakes */
+.cupcake-img {
+    width: 65%;
+    height: auto;
+    border-radius: 5%;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #3C096C;
+    padding: 25px 0;
+}
+
+h2 {
+    color: #7B2CBF;
+    text-transform: uppercase;
+}
+
+.cupcake-desc {
+    text-transform: uppercase;
+    font-size: .7rem;
+}
+
+select {
+    border: none;
+    background-color: #7B2CBF;
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    transition: .3s ease-in-out;
+}
+
+select:hover {
+    background-color: #9D4EDD;
+    cursor: pointer;
+}
+
+/* Toppings */
+.contenedor-toppings {
+    background: #fadde180;
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    margin-top: 50px;
+}
+
+h3 {
+    color: #7B2CBF;
+    text-transform: uppercase;
+}
+
+/* Pedido */
+.fcf-form-control {
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid #7B2CBF;
+    margin-top: 25px;
+}
+
+.fcf-form-control-2 {
+    width: 75%;
+    border: none;
+    border-bottom: 1px solid #7B2CBF;
+    margin-top: 25px;
+}
+
+.fcf-btn {
+    border: none;
+    background: #7B2CBF;
+    color: white;
+    width: 25%;
+    height: 50px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 20px;
+    transition: .3s ease-in-out;
+    margin-top: 50px;
+}
+
+.fcf-btn:hover {
+    background: #9D4EDD;
+    transform: scale(1.1);
+}
+
+/* Footer */
+.footer-contenedor {
+    background-image: url("/imgs/footer-jpg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.logo-footer {
+    width: 25%;
+    height: auto;
+    background: white;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+
+.footer-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer-list li {
+    list-style: none;
+    margin: 5px 0;
+    color: #3C096C;
+    font-size: .8rem;
+}
+
+.bi-facebook, .bi-instagram, .bi-twitter {
+    width: 5%;
+    height: auto;
+    background: #7B2CBF;
+    border-radius: 50%;
+    padding: 3px;
+    margin-top: 25px;
+    fill: white;
+    transition: .3s ease-in-out;
+}
+
+.bi-twitter:hover {
+    padding: 6px;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.bi-facebook:hover {
+    padding: 6px;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.bi-instagram:hover {
+    padding: 6px;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.footer-ubicacion-text {
+    font-size: .8rem;
+    color: #3C096C;
+}
+
+.footer-end {
+    background-color: #3C096C;
+}
+
+.footer-end-text {
+    color: white;
+    font-size: .7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Media query widescreen */
+@media (max-width: 1200px) {
+    
+    /* Navbar widescreen */
+    .nav li a {
+        font-size: 1.5rem;
+    }
+
+    .navbar-icon {
+        width: 20%;
+    }
+
+
+    /* Portrait widescreen */
+    .portrait-logo {
+        width: 25%;
+        margin-top: 50px;
+    }
+
+    /* Cupcakes widescreen */
+    .cupcake-img {
+        width: 85%;
+        height: auto;
+        border-radius: 5%;
+    }
+
+    h1 {
+        padding: 25px 0;
+    }
+    
+    h2 {
+        font-size: 1.6rem !important;
+    }
+
+    .cupcake-desc {
+        text-transform: uppercase;
+        font-size: .8rem;
+    }
+
+    select {
+        width: 100%;
+    }
+
+    /* Toppings widescreen */
+    .contenedor-toppings {
+        background: #fadde180;
+        height: auto;
+        width: 100%;
+        padding: 0;
+        margin-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    /* Pedido widescreen */
+    .fcf-form-control {
+        width: 75%;
+        margin: 25px 0;
+    }
+
+    .fcf-form-control-2 {
+        width: 87%;
+        border: none;
+        border-bottom: 1px solid #7B2CBF;
+        margin: 25px 0;
+    }
+
+    .fcf-btn {
+        width: 50%;
+        margin-top: 25px;
+    }
+
+    /* Footer widescreen */
+    .logo-footer {
+        margin-top: 25px;
+    }
+
+    .bi-facebook, .bi-instagram, .bi-twitter {
+        width: 10%;
+        margin-top: 25px;
+    }
+
+    .footer-end-text {
+        padding: 25px 0;
+        font-size: .8rem;
+    }
+
+}
+
+/* Media query desktop */
+@media screen and (max-width: 992px) {
+
+    /* Navbar desktop */
+    .nav li a {
+        font-size: 1.2rem;
+    }
+
+    .navbar-icon {
+        width: 15%;
+    }
+
+    /* Portrait desktop */
+    .imagen-portada {
+        height: 25vh;
+    }
+    
+    .portrait-logo {
+        width: 15%;
+        margin-top: 50px;
+    }
+
+    /* Cupcakes desktop */
+    .cupcake-img {
+        width: 85%;
+        height: auto;
+        border-radius: 5%;
+    }
+
+    h1 {
+        padding: 25px 0;
+    }
+    
+    h2 {
+        font-size: 1.2rem !important;
+    }
+
+    .cupcake-desc {
+        text-transform: uppercase;
+        font-size: .5rem;
+    }
+
+    select {
+        width: 100%;
+    }
+
+    /* Toppings desktop */
+    .contenedor-toppings {
+        background: #fadde180;
+        height: auto;
+        width: 100%;
+        padding: 0;
+        margin-top: 25px;
+        padding-bottom: 25px;
+    }
+    
+    /* Pedido desktop */
+    .fcf-form-control {
+        width: 75%;
+        margin: 25px 0;
+    }
+
+    .fcf-form-control-2 {
+        width: 87%;
+        border: none;
+        border-bottom: 1px solid #7B2CBF;
+        margin: 25px 0;
+    }
+
+    .fcf-btn {
+        width: 50%;
+        margin-top: 25px;
+    }
+
+    /* Footer desktop */
+    .logo-footer {
+        margin-top: 25px;
+    }
+
+    .bi-facebook, .bi-instagram, .bi-twitter {
+        width: 10%;
+        margin-top: 25px;
+    }
+
+    .footer-end-text {
+        padding: 25px 0;
+        font-size: .8rem;
+    }
+
+}
+
+/* Media query tablets */
+@media screen and (max-width: 768px) {
+
+    /* Navbar tablet */
+    .navbar-icon {
+        width: 25%;
+    }
+
+    /* Portrait tablet */
+    .portrait-logo {
+        width: 25%;
+        height: auto;
+        background: white;
+        border-radius: 50%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .imagen-portada {
+        margin-top: 50px;
+        height: 35vh;
+    }
+
+    /* Cupcakes tablet */
+    .cupcake-img {
+        width: 90%;
+        height: auto;
+        border-radius: 5%;
+        margin: 25px 0;
+    }
+
+    h1 {
+        padding-top: 25px;
+    }
+
+    h2 {
+        font-size: 1rem !important;
+    }
+
+    select {
+        width: 100%;
+    }
+
+    /* Toppings tablet */
+    .contenedor-toppings {
+        background: #fadde180;
+        height: auto;
+        width: 100%;
+        padding: 0 0 25px 0;
+        margin-top: 25px;
+    }
+
+    /* Pedidos tablet */
+    .fcf-form-control {
+        width: 75%;
+        margin: 25px 0;
+    }
+
+    .fcf-form-control-2 {
+        width: 88%;
+        border: none;
+        border-bottom: 1px solid #7B2CBF;
+        margin: 25px 0;
+    }
+
+    .fcf-btn {
+        width: 50%;
+        margin-top: 25px;
+    }
+
+    /* Footer tablet */
+    .logo-footer {
+        margin-top: 25px;
+    }
+
+    .bi-facebook, .bi-instagram, .bi-twitter {
+        width: 10%;
+        margin-top: 25px;
+    }
+
+    .footer-end-text {
+        padding: 25px 0;
+        font-size: .5rem;
+    }
+
+}
+
+/* Media query cellphones */
+  @media screen and (max-width: 576px) {
+
+    /* Navbar mobile */
+    .nav li a {
+        font-size: .5rem;
+    }
+
+    .navbar-icon {
+        width: 20%;
+    }
+
+    /* Portrait mobile */
+    .imagen-portada {
+        margin-top: 50px;
+        height: 50vh;
+    }
+
+    .portrait-logo {
+        width: 50%;
+        height: auto;
+        background: white;
+        border-radius: 50%;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Cupcakes mobile */
+    .cupcake-img {
+        width: 75%;
+        height: auto;
+        border-radius: 5%;
+        margin: 25px 0;
+    }
+
+    h1 {
+        text-transform: uppercase;
+        text-align: center;
+        color: #3C096C;
+        padding-top: 25px;
+    }
+
+    /* Toppings mobile */
+    .contenedor-toppings {
+        margin: 50px 0;
+        background: #fadde180;
+        width: 100%;
+        height: auto;
+    }
+
+    .fcf-form-control {
+        width: 100%;
+        margin: 25px 0;
+    }
+    
+    .fcf-btn {
+        border: none;
+        background: #7B2CBF;
+        color: white;
+        width: 75%;
+        height: 50px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-size: 20px;
+        transition: .3s ease-in-out;
+    }
+
+    h3 {
+        padding-top: 25px;
+    }
+
+    .logo-footer {
+        width: 25%;
+        margin: 50px 0;
+    }
+
+    .bi-facebook, .bi-instagram, .bi-twitter {
+        margin: 0 0 25px 0;
+    }
+
+    .footer-end-text {
+        padding: 25px 0;
+        font-size: .5rem;
+    }
+
+}
